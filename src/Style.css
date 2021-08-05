@@ -1,0 +1,133 @@
+.Nav{
+   margin:20px;
+    color: black;
+    height: 100px;
+}
+.title{
+    margin-left: 40%;
+    font-size:xx-large;
+    color:black;
+    font-weight: bolder;
+   
+}
+.input{
+   
+    margin-top: 20px;
+    margin-left: 20%;
+    margin-bottom: 30px;
+}
+.a{
+    color: #ffc107;
+}
+.input2{
+   
+    margin-top: 20px;
+    margin-bottom: 30px;
+    font-size: larger;
+    margin-left: 22%;
+  
+  width:100%;
+    color: black;
+}
+
+.in{
+    width: 700px; 
+    height: 62px;
+    margin:10px;
+}
+.button1{
+width: 220px;
+}
+.button{
+   margin-left: 90px;
+}
+.but{
+    width: 500px;
+}
+.plus{
+    color: white;
+    font-weight:bold;
+    font-size: larger;
+}
+.huge1{
+    margin-left: 10px;
+    color: white;
+    border-radius: 20%;
+    background-color:#dc3545; 
+    font-size:smaller;
+}
+.huge2{
+    margin-left: 10px;
+    color: white;
+    border-radius: 20%;
+    background-color:#ffc107; 
+    font-size:smaller;
+}
+.huge3{
+    margin-left: 10px;
+    border-radius: 20%;
+    color: white;
+    background-color: #28a745;
+    font-size:smaller;
+}
+.complete_btn,
+.delete_btn{
+    
+    background: tomato;
+    color: white;
+    border: none;
+    margin-left: 0.2rem;
+    cursor: pointer;
+    font-size: 1rem;
+    border-radius: 10px;
+    width: 100px;
+    height: 40px;
+  
+}
+
+.edit_btn{
+  background:turquoise;
+  color: white;
+  border: none;
+  margin-left: 0.2rem;
+  cursor: pointer;
+  font-size: 1rem;
+  border-radius: 10px;
+  width: 60px;
+  height: 40px;
+}
+.edit_btn:active{
+  background: teal;
+}
+.complete_btn{
+    background: rosybrown;
+}
+.complete_btn:active{
+    background: green;
+}
+.delete_btn:active{
+    background: #b65337;
+}
+.faCheck, .faEdit, .faTrash {
+  pointer-events: none;
+}
+.completedItem{
+  text-decoration: line-through;
+  opacity: 0.5;
+  transform: scale(0.96);
+}
+.done{
+margin-top: 20px;
+margin-right: 20px;
+background-color: chartreuse;
+border-radius: 15%;
+
+}
+.notdone{
+    margin-top: 20px;
+    margin-right: 20px;
+    margin-left: 10px;
+    background-color: crimson;
+    border-radius: 15%;
+     
+}
